@@ -1,1 +1,0 @@
-import{_ as t,o,c as s,a as e}from"./index.6c7fc85c.js";const _=""+new URL("1.0f7f1c9d.jpg",import.meta.url).href;const c={},n={class:"about"},a=e("h1",null,"This is an about page",-1),r=e("img",{src:_},null,-1),i=[a,r];function l(u,d){return o(),s("div",n,i)}const p=t(c,[["render",l]]);export{p as default};
