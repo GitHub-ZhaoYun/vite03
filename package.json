@@ -8,6 +8,10 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "axios": "^1.2.1",
+    "babel-eslint": "^10.1.0",
+    "element-plus": "^2.2.28",
     "express": "^4.18.2",
     "path": "^0.12.7",
     "pinia": "^2.0.21",
@@ -16,11 +20,19 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
+    "@iconify-json/ep": "^1.1.7",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.22.0",
+    "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-vue": "^9.3.0",
     "prettier": "^2.7.1",
+    "unplugin-auto-import": "^0.13.0",
+    "unplugin-icons": "^0.15.2",
+    "unplugin-vue-components": "^0.23.0",
     "vite": "^3.0.9"
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint"
   }
 }
