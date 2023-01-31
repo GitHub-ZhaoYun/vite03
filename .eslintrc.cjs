@@ -23,6 +23,9 @@ module.exports = {
   },
   'extends': [
     'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
+    'plugin:vue/vue3-strongly-recommended',
+    './.eslintrc-auto-import.json', // eslintrc-auto-import 解决在页面中未引入 vue vue-router element 方法 eslint报错的问题
     'eslint:recommended',
     '@vue/eslint-config-prettier'
   ],
