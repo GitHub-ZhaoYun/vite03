@@ -19,7 +19,7 @@ export default defineConfig({
         vue(),
         AutoImport({
             // 自动导入vue和vue-router相关函数
-            imports: ['vue', 'vue-router'],//自动引入vue的ref、toRefs、onmounted等，无需在页面中再次引入
+            imports: ['vue', 'vue-router', 'pinia'],//自动引入vue的ref、toRefs、onmounted等，无需在页面中再次引入
             resolvers: [
                 ElementPlusResolver()
             ]

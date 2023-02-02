@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+import store from './stores'
 import App from './App.vue'
 import router from './router'
 import ElementPlus from 'element-plus'
@@ -13,7 +13,7 @@ const app = createApp(App).use(ElementPlus,{
 Object.keys(Elicons).forEach((key) => {
     app.component(key, Elicons[key]);
 });
-app.use(createPinia())
+app.use(store)
 app.use(router)
 app.use(i18n)
 app.use(ElementPlus)
