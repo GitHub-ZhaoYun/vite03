@@ -1,9 +1,13 @@
 import { createApp } from 'vue'
+import piniaStore from './stores/piniaStore'
 import store from './stores'
 import App from './App.vue'
 import router from './router'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
+import '@/assets/css/layout.scss'
+import '@/assets/css/custom.scss'
+import SvgIcon from '@/components/SvgIcon.vue'
 import * as Elicons from '@element-plus/icons-vue';
 import i18n from './locales/lang/index'
 const app = createApp(App).use(ElementPlus,{
@@ -13,8 +17,9 @@ const app = createApp(App).use(ElementPlus,{
 Object.keys(Elicons).forEach((key) => {
     app.component(key, Elicons[key]);
 });
+app.use(piniaStore)
 app.use(store)
 app.use(router)
 app.use(i18n)
-app.use(ElementPlus)
+app.component('SvgIcon', SvgIcon)
 app.mount('#app')
