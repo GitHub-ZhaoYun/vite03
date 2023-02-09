@@ -2,7 +2,7 @@
     <el-sub-menu :index="item.menuId" v-if="item.children.length > 0">
         <template #title>
             <el-icon>
-                <GoldMedal/>
+                <component :is="item.icon"></component>
             </el-icon>
             <span>{{ item.menuName }}</span>
         </template>
@@ -10,7 +10,7 @@
     </el-sub-menu>
     <el-menu-item :index="item.menuId" v-else @click="handleMenu(item)">
         <el-icon>
-            <Present/>
+            <component :is="item.icon"></component>
         </el-icon>
         <span v-if="collapse">{{ item.menuName }}</span>
         <template #title>{{ item.menuName }}</template>

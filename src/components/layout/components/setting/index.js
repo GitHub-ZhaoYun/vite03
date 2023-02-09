@@ -118,7 +118,7 @@ export const _getThemes = (params) => {
       cls: `layout-type-${index + 1}`
     })
   })
-
+  console.log(attribute);
   document.querySelector(':root').setAttribute('style', attribute)
 }
 

@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 import AutoImport from "unplugin-auto-import/vite"
 import Components from 'unplugin-vue-components/vite'
 import {ElementPlusResolver} from 'unplugin-vue-components/resolvers'
-
+import { svgLoader } from './src/utils/svg-loader.js'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,7 +29,8 @@ export default defineConfig({
                 // 自动导入 Element Plus 组件
                 ElementPlusResolver(),
             ],
-        })
+        }),
+        svgLoader('/src/assets/svg/')
     ],
     base: './', // 不配置 base 时，打包之后，访问时出现白屏
     // 强制预构建插件包

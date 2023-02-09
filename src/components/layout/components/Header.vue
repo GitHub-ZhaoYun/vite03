@@ -55,8 +55,8 @@
 // getCurrentInstance 引自 vue
 const { proxy } = getCurrentInstance();
 //获取当前的语言是什么,让页面标签el-dropdown-item变成灰色不然点击,只能让其点击没选中的
-import { useStore } from '../../../stores/language'
-const store = useStore();
+import { usePiniaStore } from '../../../stores/language'
+const store = usePiniaStore();
 let { currentLanguage } = storeToRefs(store);
 const changeLanguage = (val) => { //接受参数。是上方lang文件设置的。message  zh还是en
     currentLanguage.value = val;

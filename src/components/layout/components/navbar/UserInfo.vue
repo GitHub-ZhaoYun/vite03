@@ -1,7 +1,7 @@
 <template>
   <el-dropdown>
     <div class="header-user">
-      <img src="@/assets/img/user.jpg" alt="" />
+      <img src="@/assets/images/user.jpg" alt="" />
       <span>超级管理员</span>
     </div>
     <template #dropdown>
