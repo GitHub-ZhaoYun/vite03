@@ -1,6 +1,7 @@
 <template>
     <el-config-provider :locale="locale">
-        <component :is="Layout"></component>
+        <component :is="Layout" v-if="$route.path != '/fapiao'"></component>
+        <router-view v-else/>
     </el-config-provider>
 </template>
 <script setup>

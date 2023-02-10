@@ -1,0 +1,16 @@
+{
+  "id": "3187438",
+  "name": "MyProject",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "自己练习的项目",
+  "glyphs": [
+    {
+      "icon_id": "17441787",
+      "name": "美女",
+      "font_class": "meinv",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    }
+  ]
+}
