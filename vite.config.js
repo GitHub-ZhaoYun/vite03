@@ -106,7 +106,7 @@ export default defineConfig({
         // 反向代理配置
         proxy: {
             '/api': {
-                target: "http://192.168.2.26:8088/",
+                target: "http://192.168.2.26:7088/",
                 changeOrigin: true,
                 rewrite: (path) => path.replace(/^\/api/, '')
             }

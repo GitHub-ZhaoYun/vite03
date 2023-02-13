@@ -44,3 +44,7 @@ $paddingWidth: 1rem;
 // 边框
 $borderColor: var(--border-color);
 $border: 1px solid $borderColor;
+
+.iconfont{
+  color: $systemTheme;
+}
