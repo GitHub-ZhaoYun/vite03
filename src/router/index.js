@@ -1,10 +1,10 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Fapiao from '../views/fapiao.vue'
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(), // hash模式 createWebHashHistory() history模式 createWebHistory()
     routes: [
         {
             path: '/',

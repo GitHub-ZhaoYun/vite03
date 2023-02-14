@@ -89,7 +89,6 @@
                 ></el-switch>
             </div>
         </div>
-        <el-button class="draw-save">保存</el-button>
     </el-drawer>
 </template>
 
