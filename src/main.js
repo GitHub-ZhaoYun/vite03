@@ -9,7 +9,8 @@ import '@/assets/css/layout.scss'
 import '@/assets/css/custom.scss'
 import SvgIcon from '@/components/SvgIcon.vue'
 import * as Elicons from '@element-plus/icons-vue';
-import i18n from './locales/lang/index'
+import i18n from './locales/lang/index';
+// import './assets/font/iconfont.js';
 const app = createApp(App).use(ElementPlus,{
     i18n:(key,value) => i18n.t(key,value),
 })
