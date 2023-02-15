@@ -6,11 +6,39 @@
   "description": "自己练习的项目",
   "glyphs": [
     {
-      "icon_id": "17441787",
-      "name": "美女",
-      "font_class": "meinv",
-      "unicode": "e651",
-      "unicode_decimal": 58961
+      "icon_id": "18790375",
+      "name": "404",
+      "font_class": "icon-test",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "34000876",
+      "name": "升压站",
+      "font_class": "shengyazhan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "3715717",
+      "name": "女",
+      "font_class": "nv",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "34022917",
+      "name": "apple_line",
+      "font_class": "apple_line",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "20530206",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e632",
+      "unicode_decimal": 58930
     }
   ]
 }
